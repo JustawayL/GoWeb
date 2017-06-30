@@ -5,8 +5,8 @@
 ```
 go get github.com/JustawayL/GoWeb
 
-go build || go run main.go
-
 ```
-localhost:8080
+Usar `go build` o `go run main.go` en la carpeta del proyecto.
+
+listen localhost:8080
 
