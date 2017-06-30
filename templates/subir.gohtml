@@ -19,6 +19,10 @@
 
   <body>
     {{template "header"}}
+    <div class="alert alert-info fade in">
+    <a href="#" class="close" data-dismiss="alert">&times;</a>
+    <strong>Nota!</strong> Ingresar un archivo tipo imagen.
+</div>
     <div class="container">
         <h2> Seleccionar archivo </h2>
 
@@ -26,8 +30,10 @@
             <input type="file"  multiple accept='image/*' name="uploadfile" />
             <input type="submit" value="upload" />
         </form>
+      </br>
         <p class="Lead">{{.}}</p>
     </div><!-- /.container -->
+
 
 
     <!-- Bootstrap core JavaScript
